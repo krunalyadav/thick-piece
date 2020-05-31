@@ -4,7 +4,8 @@
   "private": true,
   "dependencies": {
     "firebase": "^7.14.2",
-    "firebase-admin": "^8.11.0",
+    "firebase-admin": "^8.12.1",
+    "firebase-functions": "^3.6.2",
     "firebase-tools": "^8.2.0",
     "moment": "2.24.0",
     "react": "^16.13.1",
@@ -18,7 +19,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "deploy": "npm run build && firebase deploy"
   },
   "eslintConfig": {
     "extends": "react-app"
